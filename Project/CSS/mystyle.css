@@ -1,0 +1,84 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+img {
+  width: 100%;
+}
+
+header {
+  text-align: center;
+  padding: 17px 0;
+  color: #fff;
+  font-weight: bold;
+  font-size: 20px;
+  background-color: #195774;
+  width: 100%;
+}
+
+.outer-wrapper {
+  margin: 30px 5%;
+}
+
+.missing-puppy {
+  display: none;
+}
+
+.puppy-1,
+.missing-puppy,
+.puppy-2,
+.puppy-3,
+.puppy-4 {
+  margin-bottom: 20px;
+}
+
+#more-puppies {
+  text-align: center;
+  font-size: 30px;
+}
+
+footer {
+  background: #195774;
+  width: 100%;
+}
+.my-footer p {
+  text-align: center;
+  padding: 30px 0 40px;
+  color: #fff;
+  font-size: 30px;
+}
+em {
+  text-align: center;
+  font-size: 25px;
+}
+
+/* ======Media-Quirey======= */
+
+@media (min-width: 768px) {
+  .outer-wrapper {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    margin: 40px auto;
+  }
+
+  .missing-puppy {
+    display: flex;
+    align-items: center;
+    background-color: #ee4d65;
+    font-size: 60px;
+    text-align: center;
+    margin-bottom: 23px;
+  }
+
+  .puppy-1,
+  .missing-puppy,
+  .puppy-2 {
+    width: 32.5%;
+  }
+
+  .puppy-3,
+  .puppy-4 {
+    width: 48%;
+  }
+}
